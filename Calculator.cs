@@ -1,6 +1,7 @@
 namespace knightmoves;
 
 public class Calculator{
+    
     public int Max(int first, int second){
         return Math.Max(first, second);
     }
