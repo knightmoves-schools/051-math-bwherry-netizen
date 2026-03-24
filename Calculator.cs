@@ -3,11 +3,11 @@
 public class Calculator{
     public int Max(int first, int second){
         int max = Math.Max(first, second);
-        return max;
+        return 0;
     }
 
     public double Round(double value){
         double round = Math.Round(Value);
-        return round;
+        return 0.00;
     }
 }
