@@ -8,6 +8,6 @@ public class Calculator{
 
     public double Round(double value){
         double round = Math.Round(Value);
-        return 0.00;
+        return round;
     }
 }
