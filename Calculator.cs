@@ -1,13 +1,11 @@
-﻿namespace knightmoves;
+namespace knightmoves;
 
 public class Calculator{
     public int Max(int first, int second){
-        int max = Math.Max(first, second);
-        return 0;
+        return Math.Max(first, second);
     }
 
     public double Round(double value){
-        double round = Math.Round(Value);
-        return 0.00;
+        return Math.Round(value, 3);
     }
 }
